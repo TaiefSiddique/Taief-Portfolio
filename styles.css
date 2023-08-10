@@ -10,6 +10,7 @@ body {
 }
 
 .nav-title {
+    margin-left: 226px;
     color: var(--dark-01, #181818);
 font-size: 45px;
 font-weight: 800;
@@ -51,4 +52,26 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 border:0;
+
+}
+.text1{
+    color: var(--dark-02, #474747);
+font-family: Open Sans;
+font-size: 45px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.name{
+    color: var(--dark-01, #181818);
+font-family: Open Sans;
+font-size: 85px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
